@@ -1,0 +1,31 @@
+.content{
+   box-sizing: border-box;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.spiski{
+    text-decoration: underline;
+    color: blue;
+    margin: 15px 130px;
+    text-align: left;
+}
+.text-1{
+    text-align: center;
+    margin: 20px 150px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-3{
+ font-style: italic;
+ font-size: 20px;
+ margin: 20px 150px;
+ text-align: center;   
+}
+.images-1{
+/* transition: all 2s Fast Out, Linear In 0s; */
+transition: 1s ease all;
+}
+.images-1:hover{
+transform: scale(1.05);
+}
